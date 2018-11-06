@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+	.container{
+		margin: 40px;
+		position: absolute;
+	}
+			h3{
+			color: #002e7b;
+			text-transform: uppercase;
+			font-family: 'Orator Std'; 
+			font-size: 22px; important!
+			font-stretch: ultra-expanded;
+			padding-top: 10px;
+			padding-bottom: 20px;
+			}
+			h2{
+			color: #002e7b; 
+			padding: 20px;
+			font-size: 28px;
+			}
+			h4{
+			color: #002e7b;
+			text-transform: uppercase;
+			font-family: 'Orator Std';
+			font-stretch: ultra-expanded;
+			font-size: 20px; important!
+			}
+		input, select, textarea {
+   		 	width: 100%;
+    		padding: 12px 20px;
+    		margin: 8px 0;
+    		display: inline-block;
+    		border: 1px solid #ccc;
+    		border-radius: 4px;
+    		box-sizing: border-box;
+		}
+		input[type=submit] {
+    		width: 100%;
+    		background-color: #4CAF50;
+    		color: white;
+    		padding: 14px 20px;
+    		margin: 8px 0;
+    		border: none;
+    		border-radius: 4px;
+    		cursor: pointer;
+		}
+		.left{
+    		border-radius: 5px;
+    		background-color: #f2f2f2;
+   			padding: 20px;
+   			width: 50%;
+   			display: block;
+   			float: left;
+		}
+		.right{
+			border-radius: 4px;
+			background-color: #f2f2f2;
+			width: 40%;
+			padding: 20px;
+			display: block;
+			float: right;
+		}
+	</style>
+</head>
+<body>
+	<div class="navbar">
+    <div class="leftmenu">
+        <img src="logo.jpg">
+    </div>
+
+ 	<div class="dropdown">
+    <button class="dropbtn">PROGRAMS
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">BBA</a>
+      <a href="#">BCA</a>
+      <a href="#">B.Sc.CSIT</a>
+      <a href="#">Computer Engineering</a>
+      <a href="#">Civil Engineering</a>
+    </div>
+ 	</div> 
+
+  	<a href="#home">ABOUT US</a>
+  	<a href="admission.html">ADMISSION</a>
+  	<a href="#news">NEWS/NOTICES</a>
+  	<a href="contact.html">CONTACT</a>
+	</div>
+	<div class="container">
+		<h3 align="center">Kindly write to us for any enquiry or concerns and we will get back to you shortly.</h3>
+		<hr>
+		<h2>Contact Us</h2>
+
+		<span class="left">
+  		<form name="contact">
+    	<label for="fname">Full Name</label>
+    	<input type="text" id="fname" name="fullname" placeholder="Your full name.." required="true">
+    	<label for="number">Contact no.</label>
+    	<input type="number" id="number" name="number" placeholder="Your contact number">
+    	<label for="email">Email address</label>
+    	<input type="email" id="email" name="email" placeholder="Your email address" required="true">
+    	<label for="message">Message</label>
+    	<textarea rows= "5" name="message" placeholder="Your message" required="true"></textarea>
+  		<input type="submit" value="Submit">
+  		</form>
+  		</span>
+
+  		<span class="right">
+  			<h4> Engineering block</h4>
+  			<p><strong>Phone number: </strong><br>
+  			01-5201241, 01-5201911<br><br><br>
+  			<h4> Management & IT block</h4>
+  			<strong>Phone number: </strong><br>
+  			01-5186046, 01-5186112
+  			</p>
+  		</span>
+	</div>
+
+</body>
+</html>
